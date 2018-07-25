@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral+SC:200,300,400,500,600,700,800");
+@import url("https://use.fontawesome.com/releases/v5.0.8/css/all.css");
+@media screen and (max-width: 860px) {
+  .h {
+    background-size: 100% 100%;
+  }
+  div#b {
+    border-left: black solid 1px;
+  }
+  nav {
+    height: 17px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  div#c {
+    font-size: 1vw;
+  }
+  div#c figcaption {
+    font-size: 1vw;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.push-right {
+  padding: 12px;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+html {
+  background-color: black;
+}
+
+nav {
+  font-family: 'Spectral SC', sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav#dropdown {
+  background-color: #443f3f;
+  padding: 10px;
+  color: white;
+  display: none;
+}
+
+nav#dropdown ulli {
+  position: relative;
+  display: inline-block;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #dcdbea;
+  height: 250px;
+  font-family: "Comic Sans MS";
+  font-size: 12px;
+}
+
+nav#dropdown ul li:nth-child(1):hover ul {
+  display: block;
+}
+
+nav#dropdown ul ul {
+  display: none;
+  position: absolute;
+  background-color: #8c8c8c;
+  padding: 10px;
+  width: 200px;
+}
+
+nav#dropdown ul ul li:not(:last-child) {
+  border-bottom: 1px solid #737373;
+}
+
+nav#dropdown ul ul li {
+  white-space: nowrap;
+  display: block;
+  border: none;
+}
+
+nav#dropdown ul ul a {
+  display: block;
+  padding-right: 20px;
+  -webkit-transition: all 590ms;
+  transition: all 590ms;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: calc(100% -3px);
+}
+
+nav#dropdown ul ul a:hover {
+  color: white;
+  border-left: 3px solid #bf406a;
+  text-indent: 3px;
+}
+
+nav#dropdown ul a {
+  display: inline-block;
+  padding: 5px;
+  color: inherit;
+  text-decoration: none;
+}
+
+nav#dropdown ul a:hover {
+  background-color: #bfbfbf;
+}
+
+header {
+  background-image: url("/img/4.jpg");
+  margin: auto auto;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 150%;
+  background-size: 100% 100%;
+}
+
+header p {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  color: whitesmoke;
+  text-shadow: 2px 1px #000000;
+  font-family: 'Spectral SC', sans-serif;
+}
+
+.htext {
+  font-size: 19px;
+}
+
+div#a {
+  width: 66vw;
+  font-size: 20px;
+  color: #141414;
+  padding: 12px 0;
+}
+
+div#a img {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+div#c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 25vw;
+  text-align: center;
+  padding: 12px 0;
+}
+
+div#c div#project1 {
+  color: #141414;
+  height: 50%;
+}
+
+div#c div#project2 {
+  height: 50%;
+}
+
+div#c div#porject3 {
+  background-color: lightblue;
+  height: 33%;
+  display: none;
+}
+
+div#b {
+  width: 13.4vw;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div#b #github, div#b #linkin {
+  margin: 15px;
+  width: 100px;
+}
+
+div#b #github i, div#b #linkin i {
+  font-size: 4vw;
+}
+
+p {
+  margin: 12px 10px;
+}
+
+footer {
+  padding-bottom: 7px;
+  background-color: #141414;
+  text-align: right;
+  color: whitesmoke;
+}
+
+footer a {
+  color: #dcdbea;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+span.pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+span.texts {
+  margin-left: 12px;
+}
+
+div#a1 {
+  float: left;
+  padding-right: 50px;
+}
+
+div#b2 {
+  margin-left: 100px;
+}
+
+#dropdownmoble {
+  display: none;
+}
+
+@media only screen and (max-width: 860px) {
+  #divnav {
+    padding: 0.7em;
+  }
+  body {
+    width: auto;
+    height: auto;
+  }
+  #back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 12px;
+  }
+  div#a {
+    width: auto;
+    border-right: 0;
+    font-size: 12px;
+    margin: auto;
+  }
+  div#a img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding-bottom: 7px;
+  }
+  div#a span.texts {
+    padding: 0 10px;
+    text-align: center;
+    width: auto;
+  }
+  div#b {
+    width: 100%;
+  }
+  div#c {
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+  div#c figcaption {
+    font-size: 2.5vw;
+  }
+  div#c div#project1 {
+    padding: 10px;
+    width: auto;
+    height: auto;
+  }
+  div#c div#project2 {
+    padding: 10px;
+    height: auto;
+  }
+  div#c div#porject3 {
+    padding: 10px;
+    height: auto;
+  }
+  div#b {
+    width: auto;
+    display: block;
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    border-bottom: 1px solid black;
+  }
+  div#github, div#linkin {
+    width: auto;
+    font-size: 15px;
+    float: right;
+  }
+  #a1 {
+    width: auto;
+    padding: 0;
+  }
+  footer {
+    font-size: 12px;
+  }
+  #divnav {
+    display: none;
+  }
+  #dropdownmoble {
+    display: inline;
+    background-color: black;
+    margin-left: 30%;
+  }
+  #dropdownmoble a {
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #dropdownmoble {
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #dropdownmoble {
+    margin-left: 18.5%;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  a {
+    font-size: 10.7px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  body {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
