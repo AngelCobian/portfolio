@@ -132,7 +132,7 @@ nav#dropdown ul a:hover {
 }
 
 header {
-  background-image: url("/img/4.jpg");
+  background-image: url("../img/4.jpg");
   margin: auto auto;
   height: 85vh;
   display: -webkit-box;
